@@ -300,7 +300,7 @@ stopbtn.onclick = function(){
 	}
 	document.body.append(doc);
 	if (current_page != -1){
-		AndroidFunction.savePage(makeid(10)+'_'+document.title.replaceAll(' ','_')+'.html',html_page_ready+`<script>
+		download(makeid(10)+'_'+document.title.replaceAll(' ','_')+'.html',html_page_ready+`<script>
 		let all_images = document.getElementsByClassName('center_img');
 let numsfgt = 0;
 for (let k in all_images){
