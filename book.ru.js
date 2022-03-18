@@ -141,7 +141,7 @@ function toDataURL(url, callback) {
 }
 
 function makeallit(){
-  tmieout = 4000; //prompt('Enter timeout. Usually it is 4000');
+  tmieout = prompt('Enter timeout. Usually it is 4000');
 	var elemcreatekama = document.createElement('div');
 elemcreatekama.innerHTML=html_index;
 var current_page = -1;
